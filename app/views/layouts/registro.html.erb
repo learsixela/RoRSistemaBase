@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registro :: Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <link href="https://getbootstrap.com/docs/4.0/examples/jumbotron/jumbotron.css" rel="stylesheet">
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class='container'>
+  <div class="row">
+    <div class="col-md-6">
+      <%= yield :left_column %>
+    </div>
+    <div class="col-md-6">
+      <%= yield :right_column %>
+    </div>
+  </div>
+</div>
+
+
+<%= yield %>
+
+
+</body>
+</html>
