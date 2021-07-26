@@ -1,7 +1,8 @@
 # README
 Clone el proyecto 
 * git clone https://github.com/learsixela/SistemaBaseRoR.git sistemabase
-ingrese a la carpeta sistemabase
+
+* ingrese a la carpeta sistemabase:
 * cd sistemabase
 
 Proceso de instalación.
